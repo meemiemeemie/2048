@@ -1,9 +1,11 @@
 @import url(fonts/clear-sans.css);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #fff7e7;
+  color: #034545;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,7 +55,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #FF8C8C;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -149,7 +151,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #ffffff;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -231,7 +233,9 @@ hr {
 .tile, .tile .tile-inner {
   width: 107px;
   height: 107px;
-  line-height: 116.25px; }
+  line-height: 116.25px; 
+  font-family: 'Fredericka the Great', cursive;
+}
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
   -moz-transform: translate(0px, 0px);
